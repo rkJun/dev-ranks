@@ -39,8 +39,13 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.1)
+    autoprefixer-rails (6.4.0.1)
+      execjs
     awesome_print (1.7.0)
     bcrypt (3.1.11)
+    bootstrap (4.0.0.alpha3.1)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     builder (3.2.2)
     byebug (9.0.5)
     coffee-rails (4.2.1)
@@ -181,6 +186,7 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   bcrypt (~> 3.1.7)
+  bootstrap (~> 4.0.0.alpha3.1)
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2.0)
@@ -203,6 +209,3 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   underscore-rails
   web-console
-
-BUNDLED WITH
-   1.12.5

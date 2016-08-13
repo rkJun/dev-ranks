@@ -32,6 +32,8 @@ gem 'rails-i18n', '~> 5.0.0'
 gem 'underscore-rails'
 # json
 gem 'httparty'
+# bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha3.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
